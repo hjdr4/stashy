@@ -2,13 +2,16 @@
 
 Python client for the [Atlassian Stash REST API](https://developer.atlassian.com/stash/docs/latest/reference/rest-api.html). Supports Python 2.6, 2.7 and 3.3.
 
-[![Build Status](https://travis-ci.org/RisingOak/stashy.png?branch=master)](https://travis-ci.org/RisingOak/stashy)
+This is a fork adding per project/repos access to ssh keys.  
 
 ## Installation
 
 ```
-pip install stashy
+git clone https://github.com/hjdr4/stashy.git
+cd stashy
+sudo python setup.py develop
 ```
+This creates a link to the current dir. Don't remove it until uninstall.  
 
 ## Usage
 ```python
